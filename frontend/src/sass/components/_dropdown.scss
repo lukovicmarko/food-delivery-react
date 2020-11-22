@@ -1,0 +1,19 @@
+.dropdown-content {
+    display: none;
+    position: absolute;
+     margin-top: 3.12rem;
+    box-shadow: 0px 8px 16px 0px $shadow-color;
+    z-index: 10;
+    width: 7.5rem;          
+
+    a{
+        padding: 12px 16px;       
+        display: block;
+        text-align: center;
+    }
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: $color-white
+}

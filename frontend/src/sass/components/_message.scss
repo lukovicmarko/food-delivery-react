@@ -1,0 +1,13 @@
+.message{
+    width: 80%;
+    height: 5rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    color:$color-white;
+    background-color: $color-red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}

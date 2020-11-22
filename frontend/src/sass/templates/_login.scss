@@ -1,0 +1,43 @@
+.login{
+  height: 90vh;
+  background:url('../images/background-login.jpg') no-repeat center center/cover;
+
+ 
+  &-container{    
+    height: 100%;
+    width: 40%;
+    background-color: rgba(255, 255,255,.8);
+    float: right;
+    padding: 3rem 10rem; 
+  }
+
+  &-form{    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+
+  &-title{
+    font-size: 3rem;
+  }
+
+  &-subtitle{
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+  }
+}
+
+input[type=text],input[type=password]{   
+  border: 2px solid $dark-green;  
+  border-radius: 5px;
+  font-size: 1.2rem; 
+  outline: 0;
+  padding: 1rem; 
+  transition: all 0.3s; 
+  margin:1rem 0 2rem 0;
+}
+
+input:focus {
+  background-color: $color-white;  
+}

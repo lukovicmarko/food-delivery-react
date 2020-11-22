@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: $color-black;  
+    background-color: $background-color;
+}
+
+a{
+    text-decoration: none;
+    color: $color-black;   
+}
+
+p{
+    margin: 0.75rem 0;
+}
+
+
+
+

@@ -1,0 +1,14 @@
+.cart{
+    height: 80vh;
+    margin: 0 3rem;  
+    padding: 0 10rem;
+    &-content{     
+        display: grid;
+        grid-template-columns: 65% 35%;
+      
+        &__items{
+          margin-right: 10rem;
+        }        
+
+    }    
+}

@@ -1,0 +1,9 @@
+.products{
+     height: 100vh;     
+     margin: 0 15rem;  
+     &-list{
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);   
+          grid-gap: 2rem;       
+     }
+}
